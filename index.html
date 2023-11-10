@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>GTA V Hangman</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>GTA V Hangman</h1>
+      <div id="gallows">
+        <img id = "trevor"
+          style="padding-left: 60px"
+          src="hangman0.png"
+        />
+      </div>
+      <div id="word"></div>
+      <br />
+      <div id="controls">
+        <input type="text" id="guessBox" />
+        <button id="guessWordButton" class="button" onclick="guessWord( game )">
+          Guess Word
+        </button>
+        <button id="newGameButton" class="button" onclick="newGame();">
+          New Game
+        </button>
+        <br />
+        <br />
+        <form action="https://mitchum.blog/sorry-for-offending-subscribe/">
+          <button class="button">
+            In order to continue GTA tradition, cheat using console
+          </button>
+        </form>
+      </div>
+      <br />
+      <div id="guesses"></div>
+    </main>
+    <script src="javascript.js"></script>
+  </body>
+</html>
